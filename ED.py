@@ -26,7 +26,7 @@ def decrypt(filename):
     os.remove(filename)
 
 
-pwd = 'User'
+pwd = 'test' #Change before using
 password = gpass.getpass()
 
 if password == pwd:
